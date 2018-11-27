@@ -80,8 +80,8 @@ environments:
         dataSource:
             driverClassName: com.mysql.jdbc.Driver
             dbCreate: create-drop
-            url: jdbc:mysql://localhost/test
-            username: admin
+            url: jdbc:mysql://localhost?useSSL=false
+            username: root
             password: password
     test:
         dataSource:
