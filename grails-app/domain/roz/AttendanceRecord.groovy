@@ -8,5 +8,8 @@ class AttendanceRecord {
     String meetingUID
 
     static constraints = {
+        attendeeUID blank: false
+        inTime blank: false
+        meetingUID blank: false
     }
 }
